@@ -1,0 +1,11 @@
+---
+layout: panel
+title: "page 4"
+date: 2014-12-24 18:22:47 -0700
+categories: a-fistful-of-lunars
+panel_img: a-fistful-of-lunars-page-4.jpg
+alt_title: "A Fistful of Lunars Page 4"
+thumbnail: /images/comics/thumbs/a-fistful-of-lunars-page-4.jpg
+facebook_type: 
+facebook_image: /images/comics/a-fistful-of-lunars-page-4.jpg
+---

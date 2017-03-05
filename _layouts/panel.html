@@ -1,0 +1,17 @@
+---
+layout: post
+---
+
+<figure>
+  {% if page.next.url %}
+    <a href="{{ site.baseurl }}{{ page.next.url }}">
+      <img src="{{ site.baseurl }}/images/comics/{{ page.panel_img }}" 
+          srcset="{{ site.baseurl }}/images/comics/small/{{ page.panel_img }} 320w, {{ site.baseurl }}/images/comics/{{ page.panel_img }} 1025w" 
+          alt="{{ page.alt_title }}" title="{{ page.alt_title }}" class="center">
+    </a>
+  {% else %}
+       <img src="{{ site.baseurl }}/images/comics/{{ page.panel_img }}" 
+          srcset="{{ site.baseurl }}/images/comics/small/{{ page.panel_img }} 320w, {{ site.baseurl }}/images/comics/{{ page.panel_img }} 1025w" 
+          alt="{{ page.alt_title }}" title="{{ page.alt_title }}" class="center">
+  {% endif %}
+</figure>
