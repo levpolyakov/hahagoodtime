@@ -31,7 +31,7 @@ sidebar: true
 
 	{% for post in site.posts limit:1 %}
 	
-	  {{ post.content }}
+	  {% include figure.html src=post.panel_img alt=post.alt_title %}
 	  
 	{% endfor %}
       <nav class="comic-nav">
