@@ -1,0 +1,9 @@
+---
+layout: panel
+title: "Crust"
+date: 2016-06-01 18:21:45 -0500
+categories: ha-ha-good-time
+panel_img: ComicA02_Crust2.jpg
+alt_title: "Ha-Ha, Good Time! Crust"
+thumbnail: /images/comics/thumbs/ComicA02_Crust2.jpg
+---
