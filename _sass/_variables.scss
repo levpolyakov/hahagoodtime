@@ -3,7 +3,7 @@ $global-width: 1000px;
 
 // Base Colors
 $primary-color: #272727;
-$secondary-color: #aaa;
+$secondary-color: #c08fa1;
 $complimentary-color: #fff;
 $body-bg: #fdfdfd;
 $body-font-color: #222;
@@ -22,11 +22,11 @@ $base-line-height: 1.5;
 // Primary Navbar Settings
 $navbar-height: 44px;
 $navbar-color: $primary-color;
-$navbar-text-color: $secondary-color;
+$navbar-text-color:  $secondary-color;
 $navbar-hover-color: $complimentary-color;
 $navbar-active-color: darken($complimentary-color, 75%);
-$navbar-font-size: 13px;
-$navbar-font-family: "Lilita One", "Open Sans", Helvetica, Arial, sans-serif;
+$navbar-font-size: 16px;
+$navbar-font-family: "Chelsea Market", "Open Sans", Helvetica, Arial, sans-serif;
 
 // Socials Navbar Settings
 $socials-font-color: $secondary-color;
