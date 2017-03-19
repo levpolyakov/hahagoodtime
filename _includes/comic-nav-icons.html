@@ -1,0 +1,33 @@
+<nav class="comic-nav">
+	{% if site.posts.last.url == page.url %}
+	  <nav class="first-archive">
+	    <a href="{{ site.baseurl }}/{{ page.categories }}" class="hide-for-small"><img src="/images/pinkmenu-archive.jpg" alt="Archive"></a>
+	    <a href="{{ site.baseurl }}/{{ page.categories }}" class="hide-for-large"><img src="/images/pinkmenu-archive.jpg" alt="Archive"></span></a>
+	  </nav>
+	  <nav class="first-next">
+	    <a href="{{ site.baseurl }}{{page.next.url}}" class="hide-for-small"><img src="/images/pinkmenu-next.jpg" alt="Next"></a>
+	    <a href="{{ site.baseurl }}{{page.next.url}}" class="hide-for-large"><img src="/images/pinkmenu-next.jpg" alt="Next"></a>
+	  </nav>
+	{% elsif site.posts.last.url != page.url %}
+	  {% if page.previous.url %}      
+	    <nav class="previous-comic">
+	      <a href="{{ site.baseurl }}{{ page.previous.url }}" class="hide-for-small"><img src="/images/pinkmenu-prev.jpg" alt="Previous"></a>
+	      <a href="{{ site.baseurl }}{{ page.previous.url }}" class="hide-for-large"><img src="/images/pinkmenu-prev.jpg" alt="Previous"></a>
+	    </nav>
+	  {% endif %}	
+	  <nav class="first-comic">
+	    <a href="{{ site.baseurl }}{{ site.posts.last.url }}"><img src="/images/pinkmenu-first.jpg" alt="First"></a>
+	  </nav>   
+	  {% if page.next.url %}
+	    <nav class="comic-next">
+	      <a href="{{ site.baseurl }}{{page.next.url}}" class="hide-for-small"><img src="/images/pinkmenu-next.jpg" alt="Next"></a>
+	      <a href="{{ site.baseurl }}{{page.next.url}}" class="hide-for-large"><img src="/images/pinkmenu-next.jpg" alt="Next"></a>
+	    </nav>
+	    {% else %}
+	    <nav class="comic-next">
+	      <a href="{{ site.baseurl }}/{{ page.categories }}" class="hide-for-small"><img src="/images/pinkmenu-archive.jpg" alt="Archive"></span></a>
+	      <a href="{{ site.baseurl }}/{{ page.categories }}" class="hide-for-large"><img src="/images/pinkmenu-archive.jpg" alt="Archive"></span></a>
+	    </nav>
+	  {% endif %}	
+	{% endif %}	
+</nav>
