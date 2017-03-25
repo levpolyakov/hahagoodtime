@@ -9,11 +9,10 @@ layout: default
     <article class="columns small-12 large-offset-1 large-10 comic-page">
   {% endif %}
 
+    {% assign comic = page %}
 	  {% include comic-nav-icons.html %}
       
 	  {{ content }}
-
-	  {% include comic-nav-icons.html %}
 
     </article>
   </div>
