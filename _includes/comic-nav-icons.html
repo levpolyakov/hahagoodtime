@@ -1,33 +1,33 @@
 <nav class="comic-nav">
-	{% if site.posts.last.url == page.url %}
-	  <nav class="first-archive">
-	    <a href="{{ site.baseurl }}/{{ page.categories }}" class="hide-for-small"><img src="/images/menu_archives.png" alt="Archives"></a>
-	    <a href="{{ site.baseurl }}/{{ page.categories }}" class="hide-for-large"><img src="/images/menu_archives.png" alt="Archives"></span></a>
-	  </nav>
-	  <nav class="first-next">
-	    <a href="{{ site.baseurl }}{{page.next.url}}" class="hide-for-small"><img src="/images/menu_next.png" alt="Next"></a>
-	    <a href="{{ site.baseurl }}{{page.next.url}}" class="hide-for-large"><img src="/images/menu_next.png" alt="Next"></a>
-	  </nav>
-	{% elsif site.posts.last.url != page.url %}
-	  {% if page.previous.url %}
-	    <nav class="previous-comic">
-	      <a href="{{ site.baseurl }}{{ page.previous.url }}" class="hide-for-small"><img src="/images/menu_prev.png" alt="Previous"></a>
-	      <a href="{{ site.baseurl }}{{ page.previous.url }}" class="hide-for-large"><img src="/images/menu_prev.png" alt="Previous"></a>
-	    </nav>
-	  {% endif %}
-	  <nav class="first-comic">
-	    <a href="{{ site.baseurl }}{{ site.posts.last.url }}"><img src="/images/menu_first.png" alt="First"></a>
-	  </nav>
-	  {% if page.next.url %}
-	    <nav class="comic-next">
-	      <a href="{{ site.baseurl }}{{page.next.url}}" class="hide-for-small"><img src="/images/menu_next.png" alt="Next"></a>
-	      <a href="{{ site.baseurl }}{{page.next.url}}" class="hide-for-large"><img src="/images/menu_next.png" alt="Next"></a>
-	    </nav>
-	    {% else %}
-	    <nav class="comic-next">
-	      <a href="{{ site.baseurl }}/{{ page.categories }}" class="hide-for-small"><img src="/images/menu_archive.png" alt="Archive"></span></a>
-	      <a href="{{ site.baseurl }}/{{ page.categories }}" class="hide-for-large"><img src="/images/menu_archive.png" alt="Archive"></span></a>
-	    </nav>
-	  {% endif %}
-	{% endif %}
+	<nav class="com-nav-btn">
+    {% if page.previous.url %}
+		<a href="{{ site.baseurl }}{{ page.previous.url }}"><img src="/images/menu_prev.png" alt="Previous"></a>
+		{% else %}
+		<img class="disabled" src="/images/menu_prev.png" alt="Previous">
+		{% endif %}
+	</nav>
+	<nav class="com-nav-btn">
+		{% if site.posts.last.url == page.url %}
+		<img class="disabled" src="/images/menu_first.png" alt="First">
+		{% else %}
+		<a href="{{ site.baseurl }}{{ site.posts.last.url }}"><img src="/images/menu_first.png" alt="First"></a>
+		{% endif %}
+	</nav>
+	<nav class="com-nav-btn">
+		<a href="{{ site.baseurl }}/{{ page.categories }}"><img src="/images/menu_archives.png" alt="Archives"></a>
+	</nav>
+	<nav class="com-nav-btn">
+		{% if site.posts.first.url == page.url %}
+		<img class="disabled" src="/images/menu_last.png" alt="First">
+		{% else %}
+		<a href="{{ site.baseurl }}{{ site.posts.first.url }}"><img src="/images/menu_last.png" alt="First"></a>
+		{% endif %}
+	</nav>
+	<nav class="com-nav-btn">
+		{% if page.next.url %}
+		<a href="{{ site.baseurl }}{{page.next.url}}"><img src="/images/menu_next.png" alt="Next"></a>
+		{% else %}
+		<img class="disabled" src="/images/menu_next.png" alt="Next">
+		{% endif %}
+	</nav>
 </nav>
