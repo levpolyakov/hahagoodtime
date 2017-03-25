@@ -2,7 +2,7 @@
 layout: panel
 title: "Edward Racer, M.D."
 date: 2016-05-01 18:21:45 -0500
-categories: ha-ha-good-time
+categories: haha-goodtime
 panel_img: Comic006_Eraser_final.jpg
 alt_title: "Ha-Ha, Good Time! Edward Racer, M.D."
 thumbnail: /images/comics/thumbs/Comic006_Eraser_final.jpg

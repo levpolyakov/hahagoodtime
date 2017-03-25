@@ -2,7 +2,7 @@
 layout: panel
 title: "Nose Ring"
 date: 2016-07-01 18:21:45 -0500
-categories: ha-ha-good-time
+categories: haha-goodtime
 panel_img: ComicA04_Nosering.jpg
 alt_title: "Ha-Ha, Good Time! Nose Ring"
 thumbnail: /images/comics/thumbs/ComicA04_Nosering.jpg
