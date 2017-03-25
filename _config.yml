@@ -31,9 +31,9 @@ permalink: /:categories/:title/
 
 # Set default header image
 header: yes
-header_sm: images/banner-small.jpg
-header_med: images/banner-med.jpg
-header_large: images/banner-large.jpg
+#header_sm: images/banner-small.jpg
+#header_med: images/banner-med.jpg
+#header_large: images/banner-large.jpg
 header_xl: images/banner-xl.jpg
 
 ## Thumbnailer taken from https://github.com/chrisanthropic/jekyll-minimagick
@@ -60,12 +60,12 @@ google_universal_analytics_cookiedomain: auto
 
 # Facebook Opengraph
 facebook_user:
-facebook_app_id:                      #enter your App ID
+facebook_app_id: 285239718571279
 facebook_locale: en_US
 facebook_page:                        #the URL of your Facebook Page
-facebook_image: /images/SHAM-logo.jpg #enter a default image (at least 200x200px) to use here for posts/pages that don't have one.
+# facebook_image: /images/SHAM-logo.jpg #enter a default image (at least 200x200px) to use here for posts/pages that don't have one.
 
 # Twitter Cards
 twitter_user: 
 twitter_card: true
-twitter_image: /images/SHAM-logo.jpg  #enter a default image (at least 200x200px) to use here for posts/pages that don't have one.
+# twitter_image: /images/SHAM-logo.jpg  #enter a default image (at least 200x200px) to use here for posts/pages that don't have one.
