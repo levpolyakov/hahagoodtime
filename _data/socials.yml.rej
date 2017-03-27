@@ -1,0 +1,12 @@
+diff a/_data/socials.yml b/_data/socials.yml	(rejected hunks)
+@@ -5,8 +5,8 @@
+ - title: "facebook"
+   href: "https://www.facebook.com/polyakovproductions/"
+   
+-  - title: "tumblr"
++- title: "tumblr"
+   href: "http://www.levpolyakov.com"
+   
+-   - title: "youtube"
++- title: "youtube"
+   href: "https://www.youtube.com/channel/UCSEcUvChjYe_iwqvqVhuOAQ"
