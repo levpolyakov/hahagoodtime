@@ -1,9 +1,0 @@
----
-layout: panel
-title: "Dolph"
-date: 2016-08-01 18:21:45 -0500
-categories: haha-goodtime
-panel_img: ComicC03_Dolph.jpg
-alt_title: "Ha-Ha, Good Time! Dolph"
-thumbnail: /images/comics/thumbs/ComicC03_Dolph.jpg
----
